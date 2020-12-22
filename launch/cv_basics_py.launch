@@ -1,0 +1,15 @@
+<launch>
+  <node
+    pkg="cv_basics"
+    type="reolink_pub.py"
+    name="reolink_pub"
+    output="screen"
+  />
+  <node
+    pkg="cv_basics"
+    type="reolink_sub.py"
+    name="reolink_sub"
+    output="screen"
+  />
+</launch>
+
